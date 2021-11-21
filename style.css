@@ -1,0 +1,174 @@
+/*
+===========          common css   ===================
+*/
+body{
+    color: #666666;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*
+===========          Top header  css   ===================
+*/
+.header_area{ 
+    width: 100%;
+    clear: both;
+}
+#top_header_area{
+    background:#ba2e1f;
+    padding: 15px 0;
+    width: 100%;
+}
+.inner_to_header{
+overflow: hidden;
+}
+.mini_menu{
+    padding-top: 5px;
+    float: left;
+    width: 70%;
+}
+.mini_menu ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: left;
+  }
+  .mini_menu ul   li{
+   display: inline-block;
+   margin-right: 20px;
+   position: relative;
+  }
+  .mini_menu ul   li::after{
+    background: #ffffff;
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 1px;
+    top: 6px;
+    right: -12px;
+   }
+   .mini_menu ul   li:last-child:after{
+    display: none;
+   }
+  .mini_menu ul   li a{
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+   }
+   .mini_menu ul   li a:hover{
+       color: #ddd;
+ 
+   }
+/*
+===========          search area  css   ===================
+*/
+.search_area{
+    float: right;
+    width: 30%;
+}
+.search_area form{
+    background: #ffffff;
+    border-radius: 25px;
+    float: right;
+    max-width: 210px;
+    padding: 2%;
+    width: 96%;
+}
+.search_area input{
+   border: 0px solid;
+   width: 75%;
+   padding: 1%;
+   float: left;
+   color: #000;
+}
+.search_area input[type="submit"]{
+    background: url(img/seaarch.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 23%;
+    cursor: pointer;
+    
+ }
+ /*
+===========          main_heade area  css   ===================
+*/
+.main_headeer_area{
+    width: 100%;
+    clear: both;
+}
+.inner_header{
+overflow: hidden;
+padding: 40px 00;
+
+}
+.logo_area{
+
+    float: left;
+    width: 240px;
+
+}
+.social_area{
+    padding-top: 25px;
+   float: right;
+    max-width: 600px;
+    width: 100%;
+    
+}
+.social_area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align:right;
+
+}
+.social_area ul li{
+    
+    display: inline-block;
+    margin-left: 20px;
+}
+.social_area ul li a{
+    display: block;
+    text-decoration: none;
+}
+.social_area ul li a i{
+    background-color: #333333;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    width: 35px;
+    padding-top: 8px;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    transition: 0.5s;
+}
+.social_area ul li a:hover i{
+    background:#ee802f ;
+}
+.social_area ul li a:hover i.fa-facebook{
+    background:#01344b ;
+}
+.social_area ul li a:hover i.fa-twitter{
+    background:#01A8FC ;
+}
+.social_area ul li a:hover i.fa-linkedin{
+    background:#021d30 ;
+}
+.social_area ul li a:hover i.fa-instagramn{
+    background:#A53AA7 ;
+}
+
+.social_area ul li a:hover i.fa-google-plus{
+    background:#C00000;
+}
